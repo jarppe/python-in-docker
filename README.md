@@ -118,4 +118,5 @@ server: uvicorn
 * Explain how to debug, i.e. exec into container etc
 * Add pointers to docker installation
 * Windows support, i.e. change the `$(pwd)` to something windows understands
+* GitHub actions to build and publish images
 * Write a blog about all this
