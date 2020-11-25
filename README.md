@@ -107,3 +107,15 @@ server: uvicorn
     "message": "Could 2020 be over already, please"
 }
 ```
+
+## TODO
+
+* Explain docker command flags
+* Explain why requirements are installed before sources are copied
+* Explain how to publish and share images
+* Explain build stages
+* Explain why dev-in-docker is 2nd best way to develop
+* Explain how to debug, i.e. exec into container etc
+* Add pointers to docker installation
+* Windows support, i.e. change the `$(pwd)` to something windows understands
+* Write a blog about all this
