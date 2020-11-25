@@ -65,7 +65,7 @@ server: uvicorn
 In my opinion the best way to develop in Python (or in any other
 language for that matter) is to do all your development inside
 a Docker container. The folder `dev` has the previous FastAPI
-example, but with once minor difference: the `uvicorn` server
+example, but with one minor difference: the `uvicorn` server
 is started with `--reload` flag.
 
 Build:
@@ -96,7 +96,7 @@ Let the container run and open the `server.py` file on editor. Change
 the response message and save the file. Notice how `uvicorn` detected the change and reloaded the application. Try the HTTP API again:
 
 ```bash
-http :8080
+$ http :8080
 HTTP/1.1 200 OK
 content-length: 48
 content-type: application/json
