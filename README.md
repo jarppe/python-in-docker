@@ -12,6 +12,7 @@ that responds to all `GET` requests with plain text response
 Build docker image:
 
 ```bash
+cd minimal
 docker build -t python-in-docker:minimal .
 ```
 
@@ -38,6 +39,7 @@ this uses [FastAPI](https://fastapi.tiangolo.com/) and
 Build:
 
 ```bash
+cd fastapi
 docker build -t python-in-docker:fastapi .
 ```
 
@@ -69,6 +71,7 @@ is started with `--reload` flag.
 Build:
 
 ```bash
+cd dev
 docker build -t python-in-docker:dev .
 ```
 
